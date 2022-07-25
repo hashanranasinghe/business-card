@@ -1,13 +1,109 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px 12px 0 0 ;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#dev {
+  color: #f3bf99;
+}
+h1 {
+  margin: 0px;
+}
+#header p {
+  margin: 3px;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+#email {
+  margin-right: 10px;
+}
+#link {
+  margin-left: 10px;
+  background-color: #5093e2;
+  color: white;
+}
+button {
+  border-radius: 12px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+}
+
+#icon {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#licon {
+  font-size: 14px;
+  margin-right: 10px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.content p {
+  text-align: justify;
+  margin: 0px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 0 10px 0px 10px;
+  font-size: 15px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+#ultra {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1b21;
+  align-items: center;
+
+}
+
+footer {
+  width: 100%;
+  background-color: #161619;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 0 0 12px 12px;
+}
+#ficon{
+ font-size: 40px;
+ margin: 10px;
+}
+#web{
+  font-size:x-small;
 }
